@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithme Génétique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        h3 {
+            color: #333;
+            margin-top: 20px;
+        }
+        p {
+            color: #666;
+            text-align: justify;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Algorithme Génétique</h1>
+<p>
+        Les algorithmes génétiques sont des techniques d'optimisation inspirées par la théorie de l'évolution naturelle. Ils sont utilisés pour résoudre des problèmes complexes en générant itérativement des solutions candidates et en les améliorant au fil du temps.
+    </p>
+<h3>Modèle Simple</h3>
+    <img src="videos/algoGn1.gif" alt="Modèle Simple">
+<p>
+        L'algorithme génétique dans sa forme la plus simple fonctionne en générant une population initiale de solutions, puis en les améliorant itérativement à l'aide d'opérateurs génétiques tels que la sélection, le croisement et la mutation. Les solutions les plus performantes sont sélectionnées pour former la prochaine génération, imitant ainsi le processus de sélection naturelle.
+    </p>
+<h3>Modèle des Îles</h3>
+    <img src="videos/algoGn2.gif" alt="Modèle des Îles">
+<p>
+        Dans le modèle des îles, plusieurs populations distinctes sont générées, chacune fonctionnant comme une "île" indépendante. De manière périodique, les individus les plus performants migrent entre les îles, permettant ainsi un échange d'information entre les populations. Ce modèle favorise l'exploration de l'espace de recherche et peut conduire à une convergence plus rapide vers une solution optimale.
+    </p>
+</body>
+</html>
