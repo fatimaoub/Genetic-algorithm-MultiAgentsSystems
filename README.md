@@ -1,4 +1,4 @@
-    <h1>Algorithme Génétique</h1>
+<h1>Algorithme Génétique</h1>
 <p>
         Les algorithmes génétiques sont des techniques d'optimisation inspirées par la théorie de l'évolution naturelle. Ils sont utilisés pour résoudre des problèmes complexes en générant itérativement des solutions candidates et en les améliorant au fil du temps.
     </p>
